@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thuc hanh vong lap while</title>
+</head>
+<body>
+<script>
+    let num;
+    let total = 0;
+    while (1){
+        num = prompt(" Enter a number");
+        if(num ==='-1'){
+            alert("sai dieu kien");
+            alert("tong la " + total);
+            break;
+        }
+        total += (+num);
+        alert(num);
+    }
+    alert(total);
+
+</script>
+</body>
+</html>
